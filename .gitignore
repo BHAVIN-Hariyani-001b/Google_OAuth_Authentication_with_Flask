@@ -1,0 +1,10 @@
+imp.txt
+auth.json
+.env
+__pycache__
+other
+venv
+tailwind_css
+node_modules/
+package-lock.json
+package.json
