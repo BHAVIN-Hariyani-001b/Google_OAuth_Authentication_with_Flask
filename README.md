@@ -129,5 +129,4 @@ If you want, I can also create:
 - `requirements.txt`  
 - complete Flask OAuth code  
 - or advanced version with JWT + database (production-level)
-```
 ---
