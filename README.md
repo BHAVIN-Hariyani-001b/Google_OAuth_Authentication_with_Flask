@@ -75,7 +75,23 @@ pip install -r requirements.txt
 - Go to Google Cloud Console and create OAuth credentials.
 Update ```config.py```:
 
-### 5. Run the application
+---
+### 5. Install Tailwind CSS
+- Required to install nodejs then will be use npm 
+```bash
+npm install tailwindcss @tailwindcss/cli
+```
+---
+
+### 6. Start the Tailwind CLI
+- Run the Tailwind CLI to watch and compile CSS
+```bash
+npx tailwindcss -i ./app/static/input.css -o ./app/static/output.css --watch
+```
+
+---
+
+### 7. Run the application
 
 ```bash
 python run.py
@@ -84,6 +100,7 @@ python run.py
 ```code
 http://localhost:5000
 ```
+---
 
 ### 🔄 OAuth Flow
 1. User clicks "Login with Google"
