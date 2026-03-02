@@ -86,7 +86,7 @@ npm install tailwindcss @tailwindcss/cli
 ### 6. Start the Tailwind CLI
 - Run the Tailwind CLI to watch and compile CSS
 ```bash
-npx tailwindcss -i ./app/static/input.css -o ./app/static/output.css --watch
+npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/output.css --watch
 ```
 
 ---
